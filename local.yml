@@ -1,0 +1,12 @@
+---
+- name: Yaml init
+  hosts: all
+  vars_files:
+    - vars/packages.yml
+  tasks:
+  - name: Install common packages
+    action: apt name=$item
+    with_items: ${packages.common}
+  - name: Install server packages
+    action: apt name=$item
+    with_items: ${packages.server}
