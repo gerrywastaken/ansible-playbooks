@@ -12,3 +12,4 @@
     with_items: ${packages.server}
 
   - include: packages/git.yml
+  - include: packages/ubuntu.yml

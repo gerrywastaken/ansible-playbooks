@@ -1,0 +1,4 @@
+---
+- name: Swap Esc and Caps Lock keys
+  command: setxkbmap -option caps:swapescape
+
