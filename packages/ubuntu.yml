@@ -2,4 +2,4 @@
 - name: Swap Esc and Caps Lock keys
   command: setxkbmap -option caps:swapescape
 - name: Install trash-cli, the safe rm
-  command: easy_install trash-cli
+  easy_install: name=trash-cli
