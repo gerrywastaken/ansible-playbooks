@@ -10,3 +10,5 @@
   - name: Install server packages
     action: apt name=$item
     with_items: ${packages.server}
+
+  - include: packages/git.yml

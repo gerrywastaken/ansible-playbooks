@@ -1,0 +1,5 @@
+---
+- name: Enable Git Color
+  command: git config --global color.ui auto
+- name: Enable Git credential caching
+  command: git config --global credential.helper cache

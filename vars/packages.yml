@@ -4,6 +4,7 @@ packages:
     - ack-grep
     - vim
     - zsh
+    - htop
     - openssh-server
   server:
     - nginx
