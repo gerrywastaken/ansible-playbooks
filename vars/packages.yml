@@ -8,5 +8,5 @@ packages:
     - openssh-server
   server:
     - nginx
-  gui
+  gui:
     - terminator
