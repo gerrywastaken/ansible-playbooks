@@ -2,4 +2,7 @@
 - name: Enable Git Color
   command: git config --global color.ui auto
 - name: Enable Git credential caching
-  command: git config --global credential.helper cache
+  command: git config --global credential.helper cache0
+- name: Set Git to use Vim as it's editor
+  command: git config --global core.editor "vim"
+
